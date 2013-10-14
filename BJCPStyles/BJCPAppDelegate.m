@@ -7,13 +7,25 @@
 //
 
 #import "BJCPAppDelegate.h"
+#import "BJCPCategoryListViewController.h"
 
 @implementation BJCPAppDelegate
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    BJCPCategoryListViewController *clvc = [[BJCPCategoryListViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:clvc];
+    
+    [[navigationController navigationBar] setBarStyle:UIBarStyleBlack];
+    
+    [[self window] setRootViewController:navigationController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

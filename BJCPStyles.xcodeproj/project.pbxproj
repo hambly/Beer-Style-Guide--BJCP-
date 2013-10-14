@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4004E4180CA02F007356E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004E1180CA02F007356E3 /* README.md */; };
+		4D4004E5180CA02F007356E3 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004E2180CA02F007356E3 /* Screenshot01.png */; };
+		4D4004E6180CA02F007356E3 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004E3180CA02F007356E3 /* Screenshot02.png */; };
+		4D7C258416E9294400FA1232 /* BJCPStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C258316E9294400FA1232 /* BJCPStyle.m */; };
+		4D7C258D16E968D700FA1232 /* BJCPStyleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C258C16E968D700FA1232 /* BJCPStyleListViewController.m */; };
+		4D7C259616E9736C00FA1232 /* BJCPStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C259416E9736C00FA1232 /* BJCPStyleViewController.m */; };
+		4D7C259716E9736C00FA1232 /* BJCPStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C259516E9736C00FA1232 /* BJCPStyleViewController.xib */; };
 		4D97C3EE16E841FB001BFB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D97C3ED16E841FB001BFB96 /* UIKit.framework */; };
 		4D97C3F016E841FB001BFB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D97C3EF16E841FB001BFB96 /* Foundation.framework */; };
 		4D97C3F216E841FB001BFB96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D97C3F116E841FB001BFB96 /* CoreGraphics.framework */; };
@@ -16,9 +23,23 @@
 		4D97C40016E841FB001BFB96 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D97C3FF16E841FB001BFB96 /* Default.png */; };
 		4D97C40216E841FB001BFB96 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D97C40116E841FB001BFB96 /* Default@2x.png */; };
 		4D97C40416E841FB001BFB96 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D97C40316E841FB001BFB96 /* Default-568h@2x.png */; };
+		4D97C40C16E84234001BFB96 /* BJCPCategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C40B16E84234001BFB96 /* BJCPCategoryListViewController.m */; };
+		4D97C41616E8455A001BFB96 /* styleguide2008.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4D97C41516E8455A001BFB96 /* styleguide2008.xml */; };
+		4D97C41C16E84735001BFB96 /* BJCPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C41B16E84735001BFB96 /* BJCPCategory.m */; };
+		4D97C42716E85DE3001BFB96 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C42616E85DE3001BFB96 /* XMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D4004E1180CA02F007356E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		4D4004E2180CA02F007356E3 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		4D4004E3180CA02F007356E3 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		4D7C258216E9294400FA1232 /* BJCPStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCPStyle.h; sourceTree = "<group>"; };
+		4D7C258316E9294400FA1232 /* BJCPStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCPStyle.m; sourceTree = "<group>"; };
+		4D7C258B16E968D700FA1232 /* BJCPStyleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCPStyleListViewController.h; sourceTree = "<group>"; };
+		4D7C258C16E968D700FA1232 /* BJCPStyleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCPStyleListViewController.m; sourceTree = "<group>"; };
+		4D7C259316E9736C00FA1232 /* BJCPStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCPStyleViewController.h; sourceTree = "<group>"; };
+		4D7C259416E9736C00FA1232 /* BJCPStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCPStyleViewController.m; sourceTree = "<group>"; };
+		4D7C259516E9736C00FA1232 /* BJCPStyleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJCPStyleViewController.xib; sourceTree = "<group>"; };
 		4D97C3EA16E841FB001BFB96 /* BJCPStyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJCPStyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D97C3ED16E841FB001BFB96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D97C3EF16E841FB001BFB96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +53,13 @@
 		4D97C3FF16E841FB001BFB96 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4D97C40116E841FB001BFB96 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4D97C40316E841FB001BFB96 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D97C40A16E84234001BFB96 /* BJCPCategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCPCategoryListViewController.h; sourceTree = "<group>"; };
+		4D97C40B16E84234001BFB96 /* BJCPCategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCPCategoryListViewController.m; sourceTree = "<group>"; };
+		4D97C41516E8455A001BFB96 /* styleguide2008.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = styleguide2008.xml; sourceTree = "<group>"; };
+		4D97C41A16E84735001BFB96 /* BJCPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCPCategory.h; sourceTree = "<group>"; };
+		4D97C41B16E84735001BFB96 /* BJCPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCPCategory.m; sourceTree = "<group>"; };
+		4D97C42516E85DE3001BFB96 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		4D97C42616E85DE3001BFB96 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,9 @@
 				4D97C3F316E841FB001BFB96 /* BJCPStyles */,
 				4D97C3EC16E841FB001BFB96 /* Frameworks */,
 				4D97C3EB16E841FB001BFB96 /* Products */,
+				4D4004E1180CA02F007356E3 /* README.md */,
+				4D4004E2180CA02F007356E3 /* Screenshot01.png */,
+				4D4004E3180CA02F007356E3 /* Screenshot02.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +111,20 @@
 			children = (
 				4D97C3FC16E841FB001BFB96 /* BJCPAppDelegate.h */,
 				4D97C3FD16E841FB001BFB96 /* BJCPAppDelegate.m */,
+				4D97C40A16E84234001BFB96 /* BJCPCategoryListViewController.h */,
+				4D97C40B16E84234001BFB96 /* BJCPCategoryListViewController.m */,
+				4D7C258B16E968D700FA1232 /* BJCPStyleListViewController.h */,
+				4D7C258C16E968D700FA1232 /* BJCPStyleListViewController.m */,
+				4D7C259316E9736C00FA1232 /* BJCPStyleViewController.h */,
+				4D7C259416E9736C00FA1232 /* BJCPStyleViewController.m */,
+				4D7C259516E9736C00FA1232 /* BJCPStyleViewController.xib */,
+				4D97C41A16E84735001BFB96 /* BJCPCategory.h */,
+				4D97C41B16E84735001BFB96 /* BJCPCategory.m */,
+				4D7C258216E9294400FA1232 /* BJCPStyle.h */,
+				4D7C258316E9294400FA1232 /* BJCPStyle.m */,
+				4D97C42516E85DE3001BFB96 /* XMLParser.h */,
+				4D97C42616E85DE3001BFB96 /* XMLParser.m */,
+				4D97C41516E8455A001BFB96 /* styleguide2008.xml */,
 				4D97C3F416E841FB001BFB96 /* Supporting Files */,
 			);
 			path = BJCPStyles;
@@ -153,8 +198,13 @@
 			files = (
 				4D97C3F816E841FB001BFB96 /* InfoPlist.strings in Resources */,
 				4D97C40016E841FB001BFB96 /* Default.png in Resources */,
+				4D4004E5180CA02F007356E3 /* Screenshot01.png in Resources */,
 				4D97C40216E841FB001BFB96 /* Default@2x.png in Resources */,
+				4D4004E4180CA02F007356E3 /* README.md in Resources */,
+				4D4004E6180CA02F007356E3 /* Screenshot02.png in Resources */,
 				4D97C40416E841FB001BFB96 /* Default-568h@2x.png in Resources */,
+				4D97C41616E8455A001BFB96 /* styleguide2008.xml in Resources */,
+				4D7C259716E9736C00FA1232 /* BJCPStyleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +217,12 @@
 			files = (
 				4D97C3FA16E841FB001BFB96 /* main.m in Sources */,
 				4D97C3FE16E841FB001BFB96 /* BJCPAppDelegate.m in Sources */,
+				4D97C40C16E84234001BFB96 /* BJCPCategoryListViewController.m in Sources */,
+				4D97C41C16E84735001BFB96 /* BJCPCategory.m in Sources */,
+				4D97C42716E85DE3001BFB96 /* XMLParser.m in Sources */,
+				4D7C258416E9294400FA1232 /* BJCPStyle.m in Sources */,
+				4D7C258D16E968D700FA1232 /* BJCPStyleListViewController.m in Sources */,
+				4D7C259616E9736C00FA1232 /* BJCPStyleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +339,7 @@
 				4D97C40916E841FB001BFB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
