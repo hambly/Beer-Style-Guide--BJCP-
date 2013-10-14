@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D4004E4180CA02F007356E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004E1180CA02F007356E3 /* README.md */; };
-		4D4004E5180CA02F007356E3 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004E2180CA02F007356E3 /* Screenshot01.png */; };
-		4D4004E6180CA02F007356E3 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004E3180CA02F007356E3 /* Screenshot02.png */; };
+		4D4004FB180CB2CB007356E3 /* Screenshot01-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004F9180CB2CB007356E3 /* Screenshot01-small.png */; };
+		4D4004FC180CB2CB007356E3 /* Screenshot02-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4004FA180CB2CB007356E3 /* Screenshot02-small.png */; };
 		4D7C258416E9294400FA1232 /* BJCPStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C258316E9294400FA1232 /* BJCPStyle.m */; };
 		4D7C258D16E968D700FA1232 /* BJCPStyleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C258C16E968D700FA1232 /* BJCPStyleListViewController.m */; };
 		4D7C259616E9736C00FA1232 /* BJCPStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C259416E9736C00FA1232 /* BJCPStyleViewController.m */; };
@@ -31,8 +31,8 @@
 
 /* Begin PBXFileReference section */
 		4D4004E1180CA02F007356E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		4D4004E2180CA02F007356E3 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
-		4D4004E3180CA02F007356E3 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		4D4004F9180CB2CB007356E3 /* Screenshot01-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot01-small.png"; sourceTree = "<group>"; };
+		4D4004FA180CB2CB007356E3 /* Screenshot02-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot02-small.png"; sourceTree = "<group>"; };
 		4D7C258216E9294400FA1232 /* BJCPStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCPStyle.h; sourceTree = "<group>"; };
 		4D7C258316E9294400FA1232 /* BJCPStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJCPStyle.m; sourceTree = "<group>"; };
 		4D7C258B16E968D700FA1232 /* BJCPStyleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJCPStyleListViewController.h; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 				4D97C3EC16E841FB001BFB96 /* Frameworks */,
 				4D97C3EB16E841FB001BFB96 /* Products */,
 				4D4004E1180CA02F007356E3 /* README.md */,
-				4D4004E2180CA02F007356E3 /* Screenshot01.png */,
-				4D4004E3180CA02F007356E3 /* Screenshot02.png */,
+				4D4004F9180CB2CB007356E3 /* Screenshot01-small.png */,
+				4D4004FA180CB2CB007356E3 /* Screenshot02-small.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,12 +198,12 @@
 			files = (
 				4D97C3F816E841FB001BFB96 /* InfoPlist.strings in Resources */,
 				4D97C40016E841FB001BFB96 /* Default.png in Resources */,
-				4D4004E5180CA02F007356E3 /* Screenshot01.png in Resources */,
 				4D97C40216E841FB001BFB96 /* Default@2x.png in Resources */,
 				4D4004E4180CA02F007356E3 /* README.md in Resources */,
-				4D4004E6180CA02F007356E3 /* Screenshot02.png in Resources */,
 				4D97C40416E841FB001BFB96 /* Default-568h@2x.png in Resources */,
 				4D97C41616E8455A001BFB96 /* styleguide2008.xml in Resources */,
+				4D4004FC180CB2CB007356E3 /* Screenshot02-small.png in Resources */,
+				4D4004FB180CB2CB007356E3 /* Screenshot01-small.png in Resources */,
 				4D7C259716E9736C00FA1232 /* BJCPStyleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
